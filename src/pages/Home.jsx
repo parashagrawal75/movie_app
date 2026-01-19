@@ -25,6 +25,8 @@ export default function Home() {
             } finally {
                 setLoading(false);
             }
+        } else {
+            fetchAndSetPopularMovies();
         }
     }
 
